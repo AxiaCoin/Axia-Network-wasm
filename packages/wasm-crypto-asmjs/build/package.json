@@ -1,0 +1,55 @@
+{
+  "name": "@axia-js/wasm-crypto-asmjs",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Asm.js content for wasm-crypto",
+  "browser": "empty.js",
+  "main": "empty.js",
+  "react-native": "data.js",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "maintainers": [],
+  "contributors": [],
+  "license": "Apache-2.0",
+  "bugs": "https://github.com/axia-js/wasm/issues",
+  "homepage": "https://github.com/axia-js/wasm",
+  "dependencies": {
+    "@babel/runtime": "^7.15.4"
+  },
+  "exports": {
+    ".": {
+      "browser": {
+        "require": "./empty.cjs",
+        "default": "./empty.js"
+      },
+      "node": {
+        "require": "./empty.cjs",
+        "default": "./empty.js"
+      },
+      "react-native": {
+        "require": "./data.cjs",
+        "default": "./data.js"
+      }
+    },
+    "./cjs/data": "./cjs/data.js",
+    "./cjs/data.d.ts": "./cjs/data.d.ts",
+    "./cjs/package.json": "./cjs/package.json",
+    "./data": {
+      "require": "./data.cjs",
+      "default": "./data.js"
+    },
+    "./empty": {
+      "require": "./empty.cjs",
+      "default": "./empty.js"
+    },
+    "./index.d.ts": "./empty.d.ts",
+    "./package.json": "./package.json",
+    "./packageInfo": {
+      "require": "./packageInfo.cjs",
+      "default": "./packageInfo.js"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@axia-js/wasm-crypto",
+  "version": "0.1.0",
+  "type": "module",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "main": "index.js",
+  "sideEffects": [
+    "./detectPackage.js",
+    "./detectPackage.cjs"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@axia-js/wasm-crypto-asmjs": "0.1.0",
+    "@axia-js/wasm-crypto-wasm": "0.1.0",
+    "@babel/runtime": "^7.15.4"
+  },
+  "devDependencies": {
+    "@axia-js/util": "0.1.0",
+    "@axia-js/x-randomvalues": "0.1.0"
+  },
+  "peerDependencies": {
+    "@axia-js/util": "0.1.0",
+    "@axia-js/x-randomvalues": "0.1.0"
+  }
+}

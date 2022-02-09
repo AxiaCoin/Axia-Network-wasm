@@ -1,0 +1,1 @@
+error: toolchain 'nightly-2020-10-25-x86_64-unknown-linux-gnu' is not installed

@@ -1,0 +1,22 @@
+{
+  "name": "@axia-js/wasm-crypto-wasm",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Wasm content for wasm-crypto",
+  "browser": "data.js",
+  "main": "data.js",
+  "react-native": "data.js",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "maintainers": [],
+  "contributors": [],
+  "license": "Apache-2.0",
+  "bugs": "https://github.com/axia-js/wasm/issues",
+  "homepage": "https://github.com/axia-js/wasm",
+  "dependencies": {
+    "@babel/runtime": "^7.15.4"
+  }
+}
