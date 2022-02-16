@@ -1,10 +1,10 @@
 // Copyright 2019-2021 @axia-js/wasm-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-// Copyright 2019 Axiatech via https://github.com/axctech/schnorrkel-js/
+// Copyright 2019 Axiatech via https://github.com/axiatech/schnorrkel-js/
 //
 // Originally developed (as a fork) in https://github.com/axia-js/schnorrkel-js/
-// which was adpated from the initial https://github.com/axctech/schnorrkel-js/
+// which was adpated from the initial https://github.com/axiatech/schnorrkel-js/
 // forked at commit eff430ddc3090f56317c80654208b8298ef7ab3f
 
 use curve25519_dalek::scalar::Scalar;
